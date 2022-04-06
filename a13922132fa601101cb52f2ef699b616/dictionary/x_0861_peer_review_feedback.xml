@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Feedback" max_length="40" name="x_0861_peer_review_feedback" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="What is the primary reason for the number you gave?" max_length="200" name="question" type="string"/>
+        <element label="Receiver" max_length="32" name="receiver" reference="sys_user" type="reference"/>
+        <element label="Score" max_length="40" name="score" type="integer"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Canceled" sequence="2" value="canceled"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Submitter" max_length="32" name="submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="submitter"/>
+        </index>
+        <index name="index2">
+            <element name="receiver"/>
+        </index>
+    </element>
+</database>

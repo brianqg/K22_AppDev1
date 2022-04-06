@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_0861_peer_review.peer_review_user" name="x_0861_peer_review.peer_review_user">b4576d2b2f2241101cb52f2ef699b605</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 06:50:12</sys_created_on>
+        <sys_id>f4576d2b2f2241101cb52f2ef699b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b4576d2b2f2241101cb52f2ef699b605</sys_name>
+        <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f4576d2b2f2241101cb52f2ef699b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 06:50:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
