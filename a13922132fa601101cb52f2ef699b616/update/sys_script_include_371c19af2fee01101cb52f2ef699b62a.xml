@@ -8,7 +8,7 @@
         <description>Implementation class for the User Score table in the Peer Review application.</description>
         <name>UserScore</name>
         <script><![CDATA[var UserScore = Class.create();
-UserScore.prototype = Object.extendsObject(x_1234_peer_review.Base, {
+UserScore.prototype = Object.extendsObject(Base, {
 	initialize: function() {
 	},
 	
@@ -73,13 +73,13 @@ function saveUserScore(receiverID, avg, nps) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-05 06:05:20</sys_created_on>
         <sys_id>371c19af2fee01101cb52f2ef699b62a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>UserScore</sys_name>
         <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
         <sys_update_name>sys_script_include_371c19af2fee01101cb52f2ef699b62a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-05 06:05:20</sys_updated_on>
+        <sys_updated_on>2022-04-06 07:47:50</sys_updated_on>
     </sys_script_include>
 </record_update>

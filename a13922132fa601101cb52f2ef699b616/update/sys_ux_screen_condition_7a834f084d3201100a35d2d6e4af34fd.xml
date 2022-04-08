@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <screen display_value="Agent Assist">be834f089b320110262350564b2f0ffd</screen>
+        <screen_condition/>
+        <script><![CDATA[(function canShowAA(params) {
+    return new x_0861_peer_review.workspaceStarterExpUtils().checkContextualConfig(params.table);
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-07 02:50:06</sys_created_on>
+        <sys_id>7a834f084d3201100a35d2d6e4af34fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_7a834f084d3201100a35d2d6e4af34fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-07 02:50:06</sys_updated_on>
+    </sys_ux_screen_condition>
+</record_update>

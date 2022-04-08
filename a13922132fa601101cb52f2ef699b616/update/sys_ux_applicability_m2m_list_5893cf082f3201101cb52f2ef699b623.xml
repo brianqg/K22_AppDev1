@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for appPeer Review">f7838f082f3201101cb52f2ef699b685</applicability>
+        <list display_value="All">54938f082f3201101cb52f2ef699b6eb</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-07 02:50:11</sys_created_on>
+        <sys_id>5893cf082f3201101cb52f2ef699b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_5893cf082f3201101cb52f2ef699b623</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-07 02:50:11</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

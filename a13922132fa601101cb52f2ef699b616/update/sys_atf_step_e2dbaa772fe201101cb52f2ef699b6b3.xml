@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the 'Feedback' form with id '{{Step 3: Run Server Side Script.Record}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Open feedback created previously.</notes>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>e2dbaa772fe201101cb52f2ef699b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
+        <sys_update_name>sys_atf_step_e2dbaa772fe201101cb52f2ef699b6b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <table>x_0861_peer_review_feedback</table>
+        <test display_value="Submit Peer Review Feedback">5da039a32f6241101cb52f2ef699b645</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e2dbaa772fe201101cb52f2ef699b6b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e2dbaa772fe201101cb52f2ef699b6b3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>21ac263b2fe201101cb52f2ef699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <value/>
+        <variable display_value="Record">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e2dbaa772fe201101cb52f2ef699b6b3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>2dac263b2fe201101cb52f2ef699b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">17d732a9c7a333005e5c45b881c26007</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e2dbaa772fe201101cb52f2ef699b6b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>a5ac263b2fe201101cb52f2ef699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <value>x_0861_peer_review_feedback</value>
+        <variable display_value="Table">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e2dbaa772fe201101cb52f2ef699b6b3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>e1ac263b2fe201101cb52f2ef699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <value/>
+        <variable display_value="View">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e2dbaa772fe201101cb52f2ef699b6b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>e2dbaa772fe201101cb52f2ef699b6b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>e5ac263b2fe201101cb52f2ef699b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['8d982a732fe201101cb52f2ef699b6cc'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>e2dbaa772fe201101cb52f2ef699b6b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 06:31:34</sys_created_on>
+        <sys_id>a9ac263b2fe201101cb52f2ef699b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 06:31:34</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

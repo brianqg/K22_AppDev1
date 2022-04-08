@@ -6,13 +6,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Score</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>10</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-04 17:40:29</sys_created_on>
         <sys_id>b892b61b2fa601101cb52f2ef699b6d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Score</sys_name>
         <sys_package display_value="Peer Review" source="x_0861_peer_review">a13922132fa601101cb52f2ef699b616</sys_package>
         <sys_policy/>
         <sys_scope display_value="Peer Review">a13922132fa601101cb52f2ef699b616</sys_scope>
         <sys_update_name>sys_dictionary_x_0861_peer_review_feedback_score</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-04 17:40:29</sys_updated_on>
+        <sys_updated_on>2022-04-06 06:48:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
